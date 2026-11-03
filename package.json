@@ -1,0 +1,19 @@
+{
+  "name": "next-ppr-rewrite-resume-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js PPR resume parameter recovery fails for host-based rewrites with placeholder routing params",
+  "scripts": {
+    "build": "next build",
+    "repro": "npm run build && node repro.cjs",
+    "test": "node repro.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  }
+}
